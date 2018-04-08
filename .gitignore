@@ -1,0 +1,26 @@
+# Directories #
+###############
+node_modules
+
+# Temporary Files #
+###################
+*~
+*.swp
+*.swo
+
+# Environment Variables #
+#########################
+.env
+
+# Logs #
+########
+*.log
+
+# OS Generated Files #
+######################
+.DS_Store
+
+# Index Files #
+###############
+tags
+
