@@ -16,3 +16,18 @@ These are my personal Neovim settings.
 
         ln -s ~/.neovim/init.vim ~/.config/nvim/init.vim
 
+4. Install dependencies
+
+        pip install neovim
+        pip3 install neovim
+        gem install neovim
+        npm -g install neovim
+
+# Update
+
+    pip install --upgrade pip
+    pip install --upgrade --user neovim
+    pip3 install --upgrade pip
+    pip3 install --upgrade --user neovim
+    npm -g upgrade neovim
+
