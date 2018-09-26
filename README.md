@@ -6,15 +6,15 @@ These are my personal Neovim settings.
 
 1. Clone the repository
 
-        git clone https://github.com/p-herbert/neovim-settings.git ~/.neovim
+        git clone https://github.com/p-herbert/neovim-settings.git $HOME/.neovim
 
 2. Create the directory
 
-        mkdir -p ~/.config/nvim
+        mkdir -p $HOME/.config/nvim
 
 3. Create a symbolic link
 
-        ln -s ~/.neovim/init.vim ~/.config/nvim/init.vim
+        ln -s $HOME/.neovim/init.vim $HOME/.config/nvim/init.vim
 
 4. Install dependencies
 
