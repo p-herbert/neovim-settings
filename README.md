@@ -14,7 +14,7 @@ These are my personal Neovim settings.
 
 3. Create a symbolic link
 
-        ln -s $HOME/.neovim/init.vim $HOME/.config/nvim/init.vim
+        ln -s $HOME/.neovim/{OS_TYPE}/init.vim $HOME/.config/nvim/init.vim
 
 4. Install dependencies
 
