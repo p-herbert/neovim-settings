@@ -16,7 +16,11 @@ These are my personal Neovim settings.
 
         ln -s $HOME/.neovim/{OS_TYPE}/init.vim $HOME/.config/nvim/init.vim
 
-4. Install dependencies
+4. Install [rvm]
+
+        curl -sSL https://get.rvm.io | bash -s stable
+
+5. Install dependencies
 
         pip install neovim
         pip3 install neovim
@@ -31,3 +35,4 @@ These are my personal Neovim settings.
     pip3 install --upgrade --user neovim
     npm -g upgrade neovim
 
+[rvm]: https://github.com/rvm/rvm
