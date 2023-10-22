@@ -1,0 +1,23 @@
+{
+  "diagnostic.enableMessage": "always",
+  "diagnostic.enable": true,
+  "diagnostic.level": "hint",
+  "diagnostic.checkCurrentLine": true,
+  "eslint.autoFixOnSave": true,
+  "languageserver": {
+    "terraform": {
+      "command": "terraform-ls",
+      "args": ["serve"],
+      "filetypes": ["terraform", "tf"],
+      "initializationOptions": {}
+    },
+    "dockercompose": {
+      "command": "docker-compose-langserver",
+      "args": ["--stdio"],
+      "filetypes": ["dockercompose"],
+      "rootPatterns": [".git", ".env", "docker-compose.yml", "compose.yml"]
+    }
+  },
+  "javascript.suggestionActions.enabled": false,
+  "sql.database": "postgresql"
+}
