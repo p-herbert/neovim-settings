@@ -26,6 +26,8 @@ ln -sf "${SCRIPT_DIR}/init.vim" "$HOME/.config/nvim/init.vim"
 ln -sf "${SCRIPT_DIR}/pack" "$HOME/.config/nvim"
 ln -sf "${SCRIPT_DIR}/coc-settings.json" "$HOME/.config/nvim/coc-settings.json"
 
+eval "$(pyenv init -)"
+
 # Set python environments
 : pyenv install "${PYTHON_2_VERSION}"
 : pyenv install "${PYTHON_3_VERSION}"
