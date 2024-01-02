@@ -1,3 +1,15 @@
 [submodule "pack/plugins/start/indent-blankline.nvim"]
 	path = pack/plugins/start/indent-blankline.nvim
 	url = https://github.com/lukas-reineke/indent-blankline.nvim.git
+[submodule "pack/plugins/start/nvim-jdtls"]
+	path = pack/plugins/start/nvim-jdtls
+	url = https://github.com/mfussenegger/nvim-jdtls.git
+[submodule "pack/plugins/start/nvim-dap"]
+	path = pack/plugins/start/nvim-dap
+	url = https://github.com/mfussenegger/nvim-dap.git
+[submodule "pack/plugins/start/nvim-dap-ui"]
+	path = pack/plugins/start/nvim-dap-ui
+	url = https://github.com/rcarriga/nvim-dap-ui.git
+[submodule "pack/plugins/start/neodev.nvim"]
+	path = pack/plugins/start/neodev.nvim
+	url = https://github.com/folke/neodev.nvim.git

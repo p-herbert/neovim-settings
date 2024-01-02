@@ -18,6 +18,11 @@
       "filetypes": ["terraform", "tf"],
       "initializationOptions": {}
     },
+    "java": {
+      "command": "jdtls",
+      "filetypes": ["java"],
+      "initializationOptions": {}
+    },
     "dockercompose": {
       "command": "docker-compose-langserver",
       "args": ["--stdio"],

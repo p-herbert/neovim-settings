@@ -17,9 +17,15 @@ let g:coc_global_extensions = [
 \     'coc-tsserver',
 \     'coc-sql',
 \     'coc-sh',
-\     'coc-docker'
+\     'coc-docker',
+\     'coc-sumneko-lua'
 \]
 
 let g:node_host_prop = '~/.nvm/versions/node/v18.18.0/bin/node'
 
 source ~/.vim/.vimrc
+
+lua require("dapui").setup()
+lua require("ibl").setup()
+
+noremap <F6> <Cmd>lua require("dapui").toggle()<CR>
