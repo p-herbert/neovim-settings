@@ -5,6 +5,13 @@
   "diagnostic.checkCurrentLine": true,
   "eslint.autoFixOnSave": true,
   "languageserver": {
+    "efm": {
+      "command": "efm-langserver",
+      "args": [],
+      // custom config path
+      // "args": ["-c", "/path/to/your/config.yaml"],
+      "filetypes": ["vim", "eruby", "markdown", "yaml"]
+    },
     "terraform": {
       "command": "terraform-ls",
       "args": ["serve"],
