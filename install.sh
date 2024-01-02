@@ -14,10 +14,16 @@ cleanup() {
 }
 
 # Create required directory
-mkdir -p "$HOME/.config/nvim"
+mkdir -p "$SCRIPT_DIR/pack/plugins/start" "$HOME/.config/nvim"
+
+# Setup submodules
+git submodule init
+
+git submodule update
 
 # Link files
 ln -sf "${SCRIPT_DIR}/init.vim" "$HOME/.config/nvim/init.vim"
+ln -sf "${SCRIPT_DIR}/pack" "$HOME/.config/nvim/pack"
 ln -sf "${SCRIPT_DIR}/coc-settings.json" "$HOME/.config/nvim/coc-settings.json"
 
 # Set python environments

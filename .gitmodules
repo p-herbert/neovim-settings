@@ -1,0 +1,3 @@
+[submodule "pack/plugins/start/indent-blankline.nvim"]
+	path = pack/plugins/start/indent-blankline.nvim
+	url = https://github.com/lukas-reineke/indent-blankline.nvim.git
